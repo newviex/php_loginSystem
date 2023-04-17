@@ -14,7 +14,9 @@
   <header>
     <div class="header">
         <?php
-            echo"My first PHP Script";
+            echo"My first PHP Script with double quote";
+            echo "<br>";
+            echo'My first PHP Script with single quote';
         ?>
     </div>
   </header>
@@ -56,11 +58,13 @@
             <li>Encrypt data</li>
     </section>
 <hr>
+<br>
  <section>
-    <?php
-
-
-    ?>
+    <h2>Two basic ways to get output</h2>
+    <ul>
+        <li>echo statement</li>
+        <li>print statement</li>
+    </ul>
  </section>
 
 
