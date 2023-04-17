@@ -18,6 +18,16 @@
         ?>
     </div>
   </header>
+
+  <hr>
+
+  <section>
+    <h2>React Section</h2>
+    <div id="mydiv"></div>
+  </section>
+
+  <hr>
+
     <section>
         <h2>What is PHP?</h2>
         <ul>
@@ -25,14 +35,38 @@
             <li>It is widely used and an open source scripting language</li>
             <li>Php scripts are executed on the server</li>
             <li>Php is free to download and use</li>
+            <li>It is a powerful scripting language that it is used by the biggest blogging system on the web - WordPress!</li>
+    
         </ul>
-    </section>
 
-    <div id="mydiv"></div>
+        <hr>
+        <h2>Two Types of programming pardign that you will encounter</h2>
+        <ol>
+            <li>Procedural Programming</li>
+            <li>Objcet Oriented Progamming</li>
+        </ol>
+        <hr>
+        <h2>What can PHP do?</h2>
+        
+            <li>It can generate dynamic page content</li>
+            <li>It can create,open,read,write,delete and close files on the server </li>
+            <li>It can receive and send cookies</li>
+            <li>Can perfrom CRUD - CREATE READ UPDATE & DELETE in out database</li>
+            <li>Setup control user-access</li>
+            <li>Encrypt data</li>
+    </section>
+<hr>
+ <section>
+    <?php
+
+
+    ?>
+ </section>
+
 
     <script type="text/babel">
       function Hello() {
-        return <h1>Hello World!</h1>;
+        return <h1>Hello World!This is an example of REACT embeded on a php file!</h1>;
       }
 
       ReactDOM.render(<Hello />, document.getElementById('mydiv'))
