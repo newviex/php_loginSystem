@@ -65,8 +65,40 @@
         <li>echo statement</li>
         <li>print statement</li>
     </ul>
+    <p>
+        Hi, this is a paragraph content inside a paragraph element.
+    </p>
+    <?php
+    echo"Hello World, I'm, Aldrien.";
+    echo"<br>";
+    echo"This is also a paragraph inside the php tag";
+    echo"<br>";
+    echo"<br>";
+    echo"<p>This is another <b> paragraph </b> that got displayed inside php tags.</p>";
+    ?>
  </section>
+<hr>
+<section>
+    <h2>Without Escaping</h2>
+    <?php
+    if(1==1){
+        echo"<p> This works alright with an if statement.</p>";
+    }
+    ?>
 
+    <h2>With Escaping</h2>
+    <?php
+        //if(1==2){ // not equal to 1
+            if(1==1){
+    ?>
+            <p>This should also work with the implement of the concept of excaping in PHP.</p>
+
+        <?php 
+    }
+    ?>
+   
+
+</section>
 
     <script type="text/babel">
       function Hello() {
