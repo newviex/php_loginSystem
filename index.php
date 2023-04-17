@@ -113,7 +113,7 @@
     <h3>PRIMITIVE DATA TYPES</h3>
 
     <strong>NOTE:</strong><p>We have at least 12 PRIMITIVE DATA TYPES</p>
-    <h3>SCALAR DATA TYPES</h3>
+    <h3>Scalar</h3>
     <ul>
         <li>STRING</li>
         <li>INTEGERS</li>
@@ -137,9 +137,41 @@
     </ul>
 
     <h2>Pseudo Types</h2>
-    
+
 </section>
 
+<section>
+    <h2>String Data types</h2>
+    <ul>
+        <li>Single quotes</li>
+        <li>Double quotes</li>
+    </ul>
+    <p>It is important to take note of cancelling out double quotes in side of our double quotes</p>
+    
+    <?php
+    //INCORRECT 
+    //echo'I'm leaning';
+    echo "I'm learning how to work with strings in PHP!!! This is printed out with double quotes";
+    echo"<br>";
+    echo 'I\'m learning how to work with strings in PHP!!! This is printed out with single quotes plus with escape character';
+    ?>
+
+    <hr>
+    <h2>Integers Data Type</h2>
+    <?php
+        echo 20 . " This is an integer data types."; // integer data types
+        echo "<br>";
+        echo "20" . " This is an string data types."; // string data types
+
+        echo "<br>";
+        echo "<br>";
+        echo "<p>'10' is not equal to 10 in php</p>";
+        if("10" !== 10){
+            echo"This is not the same data types";
+        }
+    ?>
+
+</section>
 
     <script type="text/babel">
       function Hello() {
