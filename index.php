@@ -243,12 +243,25 @@
    $name = "Aldrien";
 
     echo "I am " . $name . " Allanigue";
-
-
+    echo "<br>";
     //Declare a variable and assign number data type
+    $number = 23;
+    echo "My age is " .$number;
+    echo "<br>";
     //Declare a variable and assign a boolean data type
+    
+    $a = 3;
+    if($a === 1){
+        echo "You're number one in my heart";
+    }else if ($a != 1){
+        echo ("You're number two(false)");
+    }
+    echo "<br>";
     //Declare a variable and assign float data type
+1   ;
+   $float = 3.45;
 
+   echo "The float number is " . $float;
     
 
     ?>
