@@ -220,7 +220,21 @@
             echo "Variable a is equal to true";
          }
     ?>
+<hr>
+    <h2>Declaring Variable in PHP</h2>
+    <?php 
+    echo"<h3>Rules in declaring variables</h3>";
+    echo "
+    <ul>
+         <li>Don't start you variable name with a number.</li>
+         <li>A Variable name can start with a letter and an underscore.</li>
+         <li>It cannot start with a number</li>
+         <li>It is Case Sensitive.</li>
+         <li>A variable name can only have alphanumeric characters.</li>
+    </ul>
+    ";
 
+    ?>
 
 
 
