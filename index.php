@@ -262,13 +262,27 @@
    $float = 3.45;
 
    echo "The float number is " . $float;
-    
+    echo "<hr>";
 
+    echo "<h2>Constant in PHP</h2>";
+
+    const pi=3.14;
+    const ball_height = 5;
+    const ball_width = 5;
+    echo pi;
+    echo "<br>";
+    echo "The ball height is " .ball_height;
+    echo "<br>";
+    echo "The ball width is " . ball_width;
+    echo "<br>";
     ?>
-
-
-
 </section>
+<hr>
+<section>
+    <h2>Expression in PHP - Hypertext Preprocessor</h2>
+    
+</section>
+
 
     <script type="text/babel">
       function Hello() {
