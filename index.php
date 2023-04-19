@@ -209,8 +209,16 @@
         echo "<br>";
         echo ("if you view the page source \n you'll find a new line in this string"); 
         echo "<br>";
+    ?>
 
-        
+        <hr>
+
+    <h2>Boolean in PHP - Hypertext Preproccessor</h2>
+    <?php 
+         $a = true;
+         if($a === true){
+            echo "Variable a is equal to true";
+         }
     ?>
 
 
