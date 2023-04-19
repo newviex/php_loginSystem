@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our First Php Script</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -76,6 +76,18 @@
     echo"<br>";
     echo"<p>This is another <b> paragraph </b> that got displayed inside php tags.</p>";
     ?>
+
+    <?php
+    echo "Print statement can be used with or without () parenthesis <br>";
+
+    print "hello world! <br>";
+    print "This is an example of print statement to display output on the browser.";
+
+
+
+    ?>
+
+
  </section>
 <hr>
 <section>
@@ -170,6 +182,26 @@
             echo"This is not the same data types";
         }
     ?>
+
+
+    <h2>Float Data Types</h2>
+    <?php 
+        echo 24.5; 
+        echo "<br>";
+        echo 10.35;
+        echo "<br>";
+        echo 1000.12345;
+        echo "<br>";
+
+
+        //PHP vs C#
+        echo "In PHP we dont need any extra keywords in defining float data types:" . 20.5;
+        echo "<br>";
+        echo "Unlike with c# we need to define a float:" . '20.5f';
+
+    ?>
+
+
 
 </section>
 
