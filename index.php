@@ -200,6 +200,20 @@
         echo "Unlike with c# we need to define a float:" . '20.5f';
 
     ?>
+    <hr>
+
+
+    <h2>Adding line breaks in PHP- hypertext preprocessor</h2>
+    <?php 
+        echo nl2br("if you view the page source \n you'll find a new line in this string"); 
+        echo "<br>";
+        echo ("if you view the page source \n you'll find a new line in this string"); 
+        echo "<br>";
+
+        
+    ?>
+
+
 
 
 
