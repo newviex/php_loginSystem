@@ -231,11 +231,27 @@
          <li>It cannot start with a number</li>
          <li>It is Case Sensitive.</li>
          <li>A variable name can only have alphanumeric characters.</li>
-    </ul>
-    ";
+    </ul>";
+    ?>
+<hr>
+    <?php 
+    print "<h2>Coding Challenge for Variables</h2>";
+
+
+    //Declare a variable and assign a value of string data type.
+    echo "<p>Declare a variable and assign a value of string data type.</p>";
+   $name = "Aldrien";
+
+    echo "I am " . $name . " Allanigue";
+
+
+    //Declare a variable and assign number data type
+    //Declare a variable and assign a boolean data type
+    //Declare a variable and assign float data type
+
+    
 
     ?>
-
 
 
 
