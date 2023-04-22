@@ -34,7 +34,7 @@
             Dropdown
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="function.php">Functions</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -52,10 +52,6 @@
   </div>
 </nav>
     <div class="header">
-        <?php
-            echo"My first PHP Script with double quote";
-            echo "<br>";
-            echo'My first PHP Script with single quote';
-        ?>
+       
     </div>
   </header>

@@ -5,6 +5,11 @@ include_once 'header.php';
   <hr>
 <main>
   <section>
+  <?php
+            echo"My first PHP Script with double quote";
+            echo "<br>";
+            echo'My first PHP Script with single quote';
+        ?>
     <h2>React Section</h2>
     <div id="mydiv"></div>
   </section>

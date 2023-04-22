@@ -17,6 +17,9 @@ body{
     height: 100vh;
     background-color: pink;
 }
+.functions{
+    height: 100vh;
+}
 footer{
     background-color: black;
     height: 20vh;
