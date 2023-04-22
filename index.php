@@ -530,15 +530,51 @@ echo "<hr>";
         ++$num1;
         var_dump(++$num1);
 
+        echo "<br>";
+
         $num1 = 9;
         // $num1--;
         // var_dump($num1--);
         --$num1;
         var_dump(--$num1);
 
+        echo "<br>";
+        echo "<br>";
+
+        echo "<h2>STRING OPERATORS IN PHP  </h2>";
+        
+        $a = "My name ";
+        $b = "is Aldrien Allanigue!";
+        $c = $a . $b;
+
+        echo $a; 
+
+        echo "<br>";
+        echo "<br>";
+
+        echo $b;
+
+        echo "<br>";
+        echo "<br>";
+
+        echo $c;
+
+
+        echo "<br>";
+        echo "<br>";
+
+        $g = "My name is ";
+        $h = $g. "Aldrien Allanigue";
+        echo $h;
+
 
     ?>
 </section>
+        <section>
+            <h2>CONTROL STRUCTURES</h2>
+
+
+        </section>
 
 
     <script type="text/babel">
