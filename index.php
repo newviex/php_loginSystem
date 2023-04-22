@@ -283,6 +283,65 @@
     <li>Operatos</li>
     <li>Condition</li>
     <li>Loops</li>
+
+    <hr>
+
+    <h2>Operators in PHP - Hypertext Preprocessor</h2>
+
+    <li>Assignment Operators</li>
+    <li>Arithmetic Operators</li>
+    <li>Comparison Operators</li>
+    <li>Increment/Decrement Operators</li>
+    <li>Logical Operators</li>
+    <li>String Operators</li>
+    <li>Array Operators</li>
+    <li>Conditional Assignment Operators</li>
+    <li>Operator Precedence</li>
+    <li>Error Control Operators</li>
+    <li>Execution Control Operators</li>
+    <li>Type Operators</li>
+    <li>Bitwise Operators</li>
+    
+    <hr>
+    <?php
+        $num1 = 1;
+        $num2 = 2;
+        $sum;
+        $product;
+        $difference;
+        $quotient;
+
+
+        echo "<h2> Arithmetic Operators in PHP - Hypertext Preprocessor</h2>";
+        $sum = $num1 + $num2;
+        echo "The sum is " . $sum;
+        echo "<br>";
+        $product = $num1 * $num2;
+        echo "The product is " . $product;
+        echo "<br>";
+        $difference = $num1 - $num2; 
+        echo "The difference is " . $difference;
+        echo "<br>";
+        $quotient = $num1 / $num2;
+        echo "The quotient is " . $quotient;
+
+    ?>
+
+
+
+    <!-- <h2> Assignment Operatos in PHP- Hypertext Preprocessor</h2>
+    <?php 
+    $num1 = 1;
+    $num2 = 2;
+
+    $num1 += $num2;
+
+    echo $num1;
+    echo "<br>";
+    $num1 = $num1 + $num2;
+
+    ?> -->
+
 </section>
 
 
