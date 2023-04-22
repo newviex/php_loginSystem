@@ -280,7 +280,9 @@
 <hr>
 <section>
     <h2>Expression in PHP - Hypertext Preprocessor</h2>
-    
+    <li>Operatos</li>
+    <li>Condition</li>
+    <li>Loops</li>
 </section>
 
 
