@@ -324,24 +324,28 @@
         echo "<br>";
         $quotient = $num1 / $num2;
         echo "The quotient is " . $quotient;
+    ?>
+    <hr>
+        <h2>Assignment Operators in PHP - Hypertext PreProcessor</h2>
+
+        <?php 
+
+        $num1 += $num2;  // shorthand for $num1 = $num1 + $num2;
+
+        // This assignment operator is the same as 1 + 2 which is a shorthand for $num1= $num1 +$num2;
+        echo $num1; // Num 1 now has a value of 3
+        echo "<br>";
+        $num1 += $num2 ;
+        print $num1; // We re-assign the value and added 3 to 2
+        ?>
+    <hr>
+
+    <h2>Comparison Operators in PHP - Hypertext Preprocessor</h2>
+    <?php
+        
+
 
     ?>
-
-
-
-    <!-- <h2> Assignment Operatos in PHP- Hypertext Preprocessor</h2>
-    <?php 
-    $num1 = 1;
-    $num2 = 2;
-
-    $num1 += $num2;
-
-    echo $num1;
-    echo "<br>";
-    $num1 = $num1 + $num2;
-
-    ?> -->
-
 </section>
 
 
