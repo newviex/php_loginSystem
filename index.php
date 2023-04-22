@@ -342,9 +342,21 @@
 
     <h2>Comparison Operators in PHP - Hypertext Preprocessor</h2>
     <?php
-        
+       $num1 == $num2;
+       $num1 === $num2; 
+       $num1 !== $num2;
+       $num1 < $num2;
+       $num1 > $num2;
+       $num1 <= $num2;
+       $num1 >= $num2;
+       $num1 <=> $num2; 
+    ?>
 
-
+    <?php
+        $num1 = 1;
+        $num2 = "2";
+        $num1 == $num2;
+        $num1 === $num2;
     ?>
 </section>
 
