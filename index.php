@@ -570,9 +570,55 @@ echo "<hr>";
 
     ?>
 </section>
+<hr>
         <section>
             <h2>CONTROL STRUCTURES</h2>
+            <?php
+            echo "<h3> CONDITIONAL STATEMENTS</h3>";
 
+            echo "<h4>If Statement</h4>";
+
+            /*
+              if(){
+              code
+              };
+              */
+
+            echo "if(){";
+            echo "<br>";
+            echo  "code";
+            echo "<br>";
+            echo "};";
+
+            $a = 20;
+            $b = 5;
+            echo "<br>";
+            if($a === $b){
+                echo "Variable \$a is the same value with variable \$b";
+            }elseif($b ===5){
+                echo "Variable \$b is equal to 5";
+            }
+            else{
+                echo "They are NOT the same";
+            }
+
+            echo "<hr>";
+            echo "<h4>Switch Stament</h4>";
+
+            $a =50;
+            switch($a){//This is our condition
+                case 50; //This is the first value we check if it is true
+                echo "Variable is equal to 50!!"; // our code that we want to display if the value it true
+                break; //we add the break statement to add a break to our code when we write our switch cases
+                case 100;
+                echo "Variable is equal to 100!";
+                break;
+                default: // this is the same feature as the else statement 
+                echo "Did not find the equal value";
+
+            }// END OF SWITCH STATEMENT
+            
+            ?>
 
         </section>
 
