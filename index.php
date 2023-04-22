@@ -458,7 +458,83 @@ echo "<hr>";
 
 
         echo "<hr>";
-        echo "<h3> Logical Operator</h3>";
+        echo "<h3> Logical Operator: LOGICAL AND &&</h3>";
+
+        $num1 = 5;
+        $num2 =10;
+
+        
+        if($num1 === 5 and $num2 === 10){
+            echo "This is the AND operator in action";
+            echo "<br>";
+        }
+
+
+        if($num1 === 5 && $num2 === 10){
+            echo "This is the && shorthand for the and operator in action";
+            echo "<br>";
+        }
+
+        echo "<hr>";
+        echo "<h3> Logical Operator: OR || </h3>";
+
+        if($num1 === 5 OR $num2 === 10){
+            echo "This is the OR operator in action";
+            echo "<br>";
+        }
+
+
+        if($num1 === 5 || $num2 === 10){
+            echo "This is the || shorthand for the OR operator in action";
+            echo "<br>";
+        }
+
+
+        echo "<hr>";
+        echo "<h3> Logical Operator:XOR </h3>";
+
+        $num1 = 10;
+        $num2 = 20;
+        $num3 = 5;
+        $num4 = 6;
+        
+        if($num1 === 10 XOR $num2 === 5){
+            $result = $num1 === 10 XOR $num2 === 20;
+            echo "<br>";
+
+            echo "true xor false";
+            echo "<br>";
+
+            echo " if one of these value aare true display this text";
+            echo "<br>";
+            echo $result ? "true" : "false";
+        };
+
+        echo "<hr>";
+        echo "<h3> Logical Operator:NOT EQUAL </h3>";
+
+        $num1 = 100;
+
+        var_dump($num1 !== 100);
+        echo "<br>";
+        var_dump($num1);
+
+        echo "<br>";
+        echo "<br>";
+
+        echo "<h2> INCREMENT AND DECREMENT OPERATORS IN PHP  </h2>";
+
+        $num1 = 9;
+        // $num1++;
+        // var_dump($num1++);
+        ++$num1;
+        var_dump(++$num1);
+
+        $num1 = 9;
+        // $num1--;
+        // var_dump($num1--);
+        --$num1;
+        var_dump(--$num1);
 
 
     ?>
