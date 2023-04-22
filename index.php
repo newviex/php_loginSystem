@@ -343,8 +343,9 @@
     <h2>Comparison Operators in PHP - Hypertext Preprocessor</h2>
     <?php
        $num1 == $num2;
-       $num1 === $num2; 
-       $num1 !== $num2;
+       $num1 === $num2; // strict comparison operators
+       $num1 != $num2;
+       $num1 !== $num2; //strict comparison operatos
        $num1 < $num2;
        $num1 > $num2;
        $num1 <= $num2;
@@ -354,9 +355,112 @@
 
     <?php
         $num1 = 1;
-        $num2 = "2";
-        $num1 == $num2;
-        $num1 === $num2;
+        $num2 = "1";
+
+        // $num1 == $num2;
+        // $num1 === $num2;
+        echo "Variable \$num1 is an example of an integer.!";
+        echo "<br>";
+        echo gettype($num1);
+        echo "<br>";
+        echo "Variable \$num2 is an example of a string.!";
+        echo "<br>";
+        echo gettype($num2);
+        echo "<br>";
+
+
+        echo "<p>\$num1 with an assigned value of 1 , is not equal to \$num2 with assign value of '1'</p>";
+        if ($num1 !== $num2){
+            echo "This is an example of comparing two data types that are not equal to one another";
+        }
+
+        $num3 = "1";
+        $num4 = 4;
+        $num5 = "4";
+
+        echo "<br>";
+        echo gettype($num4);
+        echo "<br>";
+        echo gettype($num5);
+        echo "<br>";
+        echo "<br>";
+        if ($num4 != $num5){
+            echo "This will not printed out";
+        }else
+        {
+            echo "This gets printed because num4 & num5 are not equal to one another";
+        }
+
+
+        $num6 = 4;
+        echo "<br>";
+        echo "<br>";
+        echo "<br>";
+        echo "<br>";
+       
+        echo "<hr>";
+
+        echo "<h3>Greater than or less  than comparison operatos </h3>";
+
+        $num1 = 1;
+        $num2 = 2;
+        $num3 = 2;
+        $num4 = 4;
+        $num5 = 5;
+        $num6 = 5;
+
+        // > greather than
+        // < less than
+
+        if($num1 < $num2 ){
+            echo "num1 is less than num2";
+        }
+
+
+        echo "<br>";
+
+        if($num3 <= $num2){
+            echo "num3 is less than or equal to num2";
+        }
+
+        echo "<br>";
+        if($num5 >= $num6){
+            echo "num 5 is greather than or equal num6";
+        }
+
+echo "<hr>";
+        echo "<h3> Spaceship Comparison Operator</h3>";
+
+        $num1 =1;
+        $num2 =3;
+        $num3 =3;
+
+        if($num1 <=> $num2){
+            print "If the one on the right
+            is greather than the number on 
+            the left this should return -1.";
+        }
+
+
+        echo "<br>";
+        print( $num1 <=> $num3);
+
+        echo "<br>";
+        print( $num2 <=> $num3); // this should produce a value of 0
+
+
+        // if($num2 <=> $num3){
+        //     print "If both numbers are equal to one another this should return 0.";
+        // }
+        echo "<br>";
+        print( $num2 <=> $num1); // this should produce a value of positive 1.
+        
+
+
+        echo "<hr>";
+        echo "<h3> Logical Operator</h3>";
+
+
     ?>
 </section>
 
