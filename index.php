@@ -603,7 +603,7 @@ echo "<hr>";
             }
 
             echo "<hr>";
-            echo "<h4>Switch Stament</h4>";
+            echo "<h4>Switch Statement</h4>";
 
             $a =50;
             switch($a){//This is our condition
@@ -618,8 +618,137 @@ echo "<hr>";
 
             }// END OF SWITCH STATEMENT
             
-            ?>
+            echo "<br>";
+            echo "<h4>IF Statement</h4>";
+            
+            $a = true ;
+            if ($a === true){
+                echo "variable is true";
+            }elseif($a === false){
+                echo "variable is false";
+            }
 
+            echo "<br>";
+            echo "<h4>LOOPS Statement</h4>";
+            
+            // $a = 20;
+            // $b = 20;
+
+            // if(a===$b){
+            //     echo "These values are the same";
+            // }
+
+            echo "<br>";
+            echo "<h4>While LOOPS Statement</h4>";
+            
+            $a = 0;
+            $b = 10;
+            while($a < $b){
+            echo "Keep looping this";
+            echo "<br>";
+            $a++ ;         
+        }
+            echo "<br>";
+            echo "<h4> INFINITE LOOP <span style = 'color:red;'>THIS IS BAD</span></h4>";
+            echo "while (true === true){";
+            echo "<br>";
+            echo "echo 'this will continuos to run FOREVER!!'<span style = 'color:red;'> DONT DO THIS! </span> ";
+            echo "}";
+
+            echo "<br>";
+            echo "<h4> DO WHILE LOOPS</h4>";
+            $a = 5;
+            do{
+                echo "Loop number" . $a++;
+                echo "<br>";
+            }while ($a <= 10);
+
+
+            echo "<br>";
+            echo "<h4> FOR LOOPS</h4>";
+
+            for($i = 0; $i < 10; $i++){ // $i meaning for iteration
+                echo "This should run 10 times";
+                echo "<br>";
+                echo "<br>";
+            }
+
+            echo "<br>";
+            echo "<h4> FOR EACH LOOPS</h4>";
+
+            $array = ["aldrien","santiago","allanigue","aldrien","santiago","allanigue","allanigue","aldrien"];
+
+            foreach( $array as $value){
+                echo $value;
+                echo "<br>";
+            };
+
+
+
+            //ASSOCIATIVE ARRAYS
+            echo "<br>";
+            echo "<br>";
+            $person1 = [
+            "First Name" => "Aldrien",
+            "Last Name" => "Allanigue",
+            "Middle Name" => "Santiago"
+            ];
+
+            foreach($person1 as $key => $value){
+                echo $key . ":" . $value;
+                echo "<br>";
+            }
+
+            ?>
+        </section>
+        <br>
+<hr>
+        <section>
+            <?php 
+            echo "<h2>BREAK AND CONTINOUS STATEMENT</h2>";
+            $a = 1;
+            while( $a<=10){
+                if($a === 5){
+                    break;
+                }//end of if statement
+                echo $a++;
+                echo "<br>";
+            }//end of while loop
+            
+            echo "<br>";
+
+            //NESTED STATEMENTS
+            echo "<h2>NESTED WHILE LOOP</h2>";
+            $a = 1;
+            while($a++){
+            echo $a;
+            while($a >=10){
+                echo "<br>";
+                break 2; // if you give 1 value it will crash your browser
+            }
+            
+            echo "<br>";
+            echo "<br>"; 
+            }//end of while loop
+            
+            echo "<br>";
+            echo "<h2>Continue Statements</h2>";
+            // ITERATION meaning
+            // When we are doing loops we are having ITERATIONS
+            // Each time we LOOP we call that ITERATION
+            // BREAK STATEMENT WE ARE STOPPING the LOOP vs the SWITCH STATEMENT we are SKIPNG
+            // BREAK = STOP , CONTINUOE = SKIP
+
+            $a = 1;
+            while($a <10){
+                $a++;
+                if( $a ===5 ){
+                    continue;
+                }
+                echo $a;
+                echo "<br>";
+            }
+            ?>
         </section>
 
 
