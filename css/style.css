@@ -18,7 +18,10 @@ body{
     background-color: pink;
 }
 .functions{
-    height: 100vh;
+    height: 120vh;
+}
+.form{
+    padding: 5rem;
 }
 footer{
     background-color: black;
