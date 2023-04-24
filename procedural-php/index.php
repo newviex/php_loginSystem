@@ -741,7 +741,7 @@ echo "<hr>";
         <section>
             <h2>INCLUE AND REQUIRE</h2>
        <?php
-       include 'includes/test2.php';
+       include '../includes/test2.php';
        echo $apple;
        echo "<br>";
        echo $b;
