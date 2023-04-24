@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +42,6 @@
         <li>Get input from users</li>
         <li>Display things on the website</li>
     </ol>
-   
 
 
     <?php
@@ -73,6 +74,21 @@
     // Call using browser when the user clicks on something
     // Call or invoke a function inside of out script or code
     ?>
+
+<br>
+<br>
+<br>
+<?php
+
+echo "<hr>";
+
+echo "<h2>FirstClass Example from includes folder</h2>";
+
+include_once './includes/FirstClass.php';
+
+?>
+
+<hr>
 
     <!-- <script>
         setTimeout(() => {
