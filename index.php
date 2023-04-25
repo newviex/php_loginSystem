@@ -134,7 +134,7 @@ include_once './includes/FirstClass.php';
  
  echo $civic->getModel();
  echo "<br>";
- echo $red->getColor();
+ echo $civic->getColor();
 ?>
 
 <hr>

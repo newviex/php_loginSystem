@@ -8,15 +8,18 @@ class car{
     //Methods
     // Set up a function declaration to set model
 
-    function setModel($model){
-        $this->model = $model;
-    }
+    // function setModel($model){
+    //     $this->model = $model;
+    // }
 
-    function setColor($color){
-        $this->color = $color;
-    }
+    // function setColor($color){
+    //     $this->color = $color;
+    // }
 
-
+  function __construct($model ,$color){
+    $this->model = $model;
+    $this->color = $color;
+  }
 
     // Refactor this into a constructor
 
@@ -34,11 +37,12 @@ class car{
 }
     
 // CREATE AN INSTANCE OF THE OBJECT
-$civic = new car();
-$civic->setModel('civic');
+$civic = new car('civic','red');
+// $red = new car('red');
 
-$red = new car();
-$red ->setColor('red');
+
+// $civic->setModel('civic');
+// $red ->setColor('red');
 
 
 
