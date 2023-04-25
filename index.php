@@ -44,7 +44,57 @@
     </ol>
 
 
-    <?php
+    <?php 
+    //  class Fruit {
+    //     // Properties
+    //     public $name;
+    //     public $color;
+
+
+    //     // Methods
+    //     function setName($name){
+    //         $this->name = $name;
+    //     }
+
+    //     function getName(){
+    //         return $this->name;
+    //     }
+    //  }
+
+    //  $apple = new Fruit();
+    //  $banana = new Fruit();
+
+    //  $apple ->setName('Apple');
+    //  $banana ->setName('Banana');
+
+    //  echo $apple->getName();
+    //  echo "<br>";
+    //  echo $banana->getName();
+
+    // Call using browser when the user clicks on something
+    // Call or invoke a function inside of out script or code
+    ?>
+
+<br>
+<br>
+<br>
+
+
+<?php
+
+echo "<hr>";
+echo "<h2>FirstClass Example from includes folder</h2>";
+include_once './includes/FirstClass.php';
+
+?>
+
+<hr>
+
+<h2>CONSTRUCTS</h2>
+
+
+
+<?php
      class Fruit {
         // Properties
         public $name;
@@ -52,7 +102,7 @@
 
 
         // Methods
-        function setName($name){
+        function __construct($name){
             $this->name = $name;
         }
 
@@ -61,11 +111,8 @@
         }
      }
 
-     $apple = new Fruit();
-     $banana = new Fruit();
-
-     $apple ->setName('Apple');
-     $banana ->setName('Banana');
+     $apple = new Fruit('Apple');
+     $banana = new Fruit('banana');
 
      echo $apple->getName();
      echo "<br>";
@@ -75,25 +122,16 @@
     // Call or invoke a function inside of out script or code
     ?>
 
-<br>
-<br>
-<br>
-<?php
 
-echo "<hr>";
-
-echo "<h2>FirstClass Example from includes folder</h2>";
-
-include_once './includes/FirstClass.php';
-
-?>
-
-<hr>
+<h3>CODING CHALLENGE</h3>
+    <?php
+        
+    ?>
+</body>
+</html>
 
     <!-- <script>
         setTimeout(() => {
             
         }, timeout);
     </script> -->
-</body>
-</html>
