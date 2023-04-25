@@ -75,6 +75,7 @@
     // Call or invoke a function inside of out script or code
     ?>
 
+
 <br>
 <br>
 <br>
@@ -124,9 +125,18 @@ include_once './includes/FirstClass.php';
 
 
 <h3>CODING CHALLENGE</h3>
-    <?php
-        
-    ?>
+
+<?php
+// connection from the construct.php
+ include './Construct.php';
+
+ //echo an instance of CAR OBJECT HERE
+?>
+
+<hr>
+
+
+
 </body>
 </html>
 

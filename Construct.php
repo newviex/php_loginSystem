@@ -31,3 +31,6 @@ $civic = new car();
 $civic->setModel('civic');
 
 echo $civic->getModel();
+
+
+// Connect to index.php
