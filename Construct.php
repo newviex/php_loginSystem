@@ -3,13 +3,17 @@
 class car{
     // Properties 
     public $model;
-
+    public $color;
 
     //Methods
     // Set up a function declaration to set model
 
     function setModel($model){
         $this->model = $model;
+    }
+
+    function setColor($color){
+        $this->color = $color;
     }
 
 
@@ -23,6 +27,9 @@ class car{
    return $this->model;
  }
    
+ function getColor(){
+    return $this->color;
+ }
 
 }
     
@@ -30,7 +37,10 @@ class car{
 $civic = new car();
 $civic->setModel('civic');
 
-echo $civic->getModel();
+$red = new car();
+$red ->setColor('red');
+
+
 
 
 // Connect to index.php

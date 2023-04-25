@@ -131,6 +131,10 @@ include_once './includes/FirstClass.php';
  include './Construct.php';
 
  //echo an instance of CAR OBJECT HERE
+ 
+ echo $civic->getModel();
+ echo "<br>";
+ echo $red->getColor();
 ?>
 
 <hr>
