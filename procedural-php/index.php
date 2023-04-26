@@ -739,21 +739,41 @@ echo "<hr>";
 
 
         <section>
-            <h2>INCLUE AND REQUIRE</h2>
+            <h2>INCLUDE AND REQUIRE</h2>
        <?php
-       include '../includes/test2.php';
+       include_once '../includes/test2.php';
+       echo "<br>";
        echo $apple;
        echo "<br>";
        echo $b;
        echo "<br>";
        ?>
         </section>
-</main>
-    <?php
+        
+
+        <hr>
+        <section>
+        <h2>Visibility and Inheritance</h2>
+            <?php
+
+            include_once '../includes/player.php';
+            $pet01 = new Pet();
+            echo $pet01->owner(); // method owner from the PET class is private --> that is why we are gettin a uncaught error
+
+            ?> 
+
+        </section>
+   
+
+
+
+<?php
          include_once 'footer.php';
     ?>
 
 
+
+</main>
 
 
 

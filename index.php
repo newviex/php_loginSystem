@@ -128,7 +128,7 @@ include_once './includes/FirstClass.php';
 
 <?php
 // connection from the construct.php
- include './Construct.php';
+ include_once './includes/Construct.php';
 
  //echo an instance of CAR OBJECT HERE
  
@@ -138,6 +138,20 @@ include_once './includes/FirstClass.php';
 ?>
 
 <hr>
+
+<h2>Visibility and Inheritance</h2>
+
+<?php
+    include './includes/player.php';
+    $pet01 = new Pet();
+    // $player01First = new PlayerName();
+
+    echo $pet01->owner(); // method owner from the PET class is private --> that is why we are gettin a uncaught error
+    // echo $player01First->owner();
+
+?>
+
+
 
 
 
